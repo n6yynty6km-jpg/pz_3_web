@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О себе - Комментарии (SQLite)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>О себе</h1>
+        <div class="profile-info">
+            <p><strong>Студент:</strong> Ванчинова Дари</p>
+            <p><strong>Группа:</strong> ПМИ-42</p>
+            <p>Задание №3, Вариант 2: комментарии хранятся в базе данных SQLite.</p>
+        </div>
+    </header>
+
+    <main class="comment-section">
+        <h2>Комментарии</h2>
+        <div class="comment-form">
+            <label for="commentInput">Ваш комментарий:</label>
+            <textarea id="commentInput" rows="4" placeholder="Напишите что-нибудь..."></textarea>
+            <button id="addCommentBtn">Добавить комментарий</button>
+        </div>
+        <div id="commentsList" class="comments-list"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
